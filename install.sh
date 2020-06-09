@@ -14,10 +14,7 @@ cd cloud9-magent
 
 sudo cp php_fpm_magento.conf /etc/nginx/conf.d/,
 sudo cp default_magento.conf /etc/nginx/default.d/,
-
-
-# fix root" directive is duplicate in /var/www/html/magento/nginx.conf.sample:29
-sudo sed -e '/root/ s/^#*/#/' -i /etc/nginx/nginx.conf
+sudo cp nginx.conf /etc/nginx/,
 
 ## put sorce code ther - /var/www/html/magento/
 ## sudo git clone https://github.com/User/repo /var/www/html/magento
