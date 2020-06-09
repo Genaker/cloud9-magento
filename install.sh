@@ -8,8 +8,11 @@ sudo service php-fpm start
  
 sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/bin --filename=composer
 
+git clone https://github.com/Genaker/cloud9-magento.git
 
+cd cloud9-magent
 
-sudo cp /php_fpm_magento.conf /etc/nginx/conf.d/,
-sudo cp /tmp/default_magento.conf /etc/nginx/default.d/,
+sudo cp php_fpm_magento.conf /etc/nginx/conf.d/,
+sudo cp default_magento.conf /etc/nginx/default.d/,
+
 
