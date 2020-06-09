@@ -8,3 +8,8 @@ sudo service php-fpm start
  
 sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/bin --filename=composer
 
+
+
+sudo cp /php_fpm_magento.conf /etc/nginx/conf.d/,
+sudo cp /tmp/default_magento.conf /etc/nginx/default.d/,
+
