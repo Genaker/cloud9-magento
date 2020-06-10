@@ -44,4 +44,8 @@ ln -s /var/www/html/magento/ ~/environment/magento
 ## sudo bin/magento setup:di:compile
 
 ## Copy media folder 
-## sudo scp -r [user]@[server_ip]:/var/www/magento/pub/media/ /var/www/html/magento/pub/media/
+## zip -r --exclude=*cache* ~/media.zip /var/www/magento/pub/media/
+## sudo scp -r [user]@[server_ip]:~/media.zip ~
+## unxip ~/media.zip -d ~/delete_it
+## cp -r ~/delete_it/[path to media]/media/ /var/www/html/magento/pub/media/
+## rm -rf ~/delete_it
