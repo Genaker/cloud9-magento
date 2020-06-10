@@ -16,6 +16,11 @@ sudo cp php_fpm_magento.conf /etc/nginx/conf.d/,
 sudo cp default_magento.conf /etc/nginx/default.d/,
 sudo cp nginx.conf /etc/nginx/,
 
+sudo killall -9 nginx
+sudo service nginx restart
+
+sudo chmod -R 777 /var/run/php-fpm/www.sock
+
 bash resize.sh 20
 
 # mysqldump -u root –p [database_name] > dump_file.sql
@@ -24,6 +29,8 @@ bash resize.sh 20
 # mysql -u root -p [name of new database] < /path/to/newdatabase.sql
 
 sudo yum -y install htop
+
+ln -s /var/www/html/magento/ ~/environment/magento
 
 ## put sorce code ther - /var/www/html/magento/
 ## sudo git clone https://github.com/User/repo /var/www/html/magento
