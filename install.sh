@@ -42,3 +42,6 @@ ln -s /var/www/html/magento/ ~/environment/magento
 ## UPDATE core_config_data set value = "https://domain/" where path like "%base_url%";
 ## sudo bin/magento setup:static-content:deploy
 ## sudo bin/magento setup:di:compile
+
+## Copy media folder 
+## sudo scp -r [user]@[server_ip]:/var/www/magento/pub/media/ /var/www/html/magento/pub/media/
