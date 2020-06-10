@@ -16,5 +16,10 @@ sudo cp php_fpm_magento.conf /etc/nginx/conf.d/,
 sudo cp default_magento.conf /etc/nginx/default.d/,
 sudo cp nginx.conf /etc/nginx/,
 
+# mysqldump -u root –p [database_name] > dump_file.sql
+# scp  dump_file.sql [username]@[servername]:[database path]
+# mysql_secure_installation
+# mysql -u root -p [name of new database] < /path/to/newdatabase.sql
+
 ## put sorce code ther - /var/www/html/magento/
 ## sudo git clone https://github.com/User/repo /var/www/html/magento
