@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Resize Cloud 9 EC2 instance DISC size bashscript
 # Specify the desired volume size in GiB as a command-line argument. If not specified, default to 20 GiB.
 SIZE=${1:-20}
 
