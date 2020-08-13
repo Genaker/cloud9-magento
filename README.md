@@ -27,7 +27,7 @@ AWS Cloud9 comes with a terminal that includes sudo privileges to the managed MA
 
 # Terminal New
 ## START NEW PROJECTS QUICKLY
-AWS Cloud9 makes it easy for you to start new projects. Cloud9’s development environment comes prepackaged with tooling for MAgento and over 40 programming languages, including Node.js, JavaScript, Python, PHP, Ruby, Go, and C++. This enables you to start writing Magento Microdervices code using popular application stacks within minutes by eliminating the need to install or configure files, SDKs, and plug-ins for your development machine. Because Cloud9 is cloud-based, you can easily maintain multiple development environments to isolate your project’s resources.
+AWS Cloud9 makes it easy for you to start new projects. Cloud9’s development environment comes prepackaged with tooling for Magento and over 40 programming languages, including Node.js, JavaScript, Python, PHP, Ruby, Go, and C++. This enables you to start writing Magento MicroServices code using popular application stacks within minutes by eliminating the need to install or configure files, SDKs, and plug-ins for your development machine. Because Cloud9 is cloud-based, you can easily maintain multiple development environments to isolate your project’s resources.
 
 ## There are two types of AWS Cloud9 environments that you can use.
 
