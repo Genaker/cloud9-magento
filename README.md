@@ -1,4 +1,4 @@
-# Cloud 9 Magneto installation
+# Cloud 9 IDE Magneto installation
 
 AWS Cloud9 IDE for MAgento is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your Magento code
 
