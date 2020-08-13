@@ -38,3 +38,9 @@ Please visit AWS documentation for more details.
 ## Auto Hybernetion feature for the development enviroment 
 
 AWS Cloud9 provides a default auto-hibernation setting of 30 minutes for your Amazon EC2 instances created through Cloud9. With this setting, your Magento2 EC2 instances automatically stop 30 minutes after you close the IDE and restart only when you reopen the IDE. As a result, you typically only incur EC2 instance charges for when you are actively working. When your instance requires a restart, you lose any active terminal sessions in the IDE and can experience some wait time while opening your IDE. Depending on your use case, you can configure the auto-hibernation setting and even elect to keep your EC2 instance “always on”.
+
+# Magento 2 Lamda microservices integration 
+
+You can access the built-in tools for AWS Lambda from the AWS Resources panel in the IDE. You can use these tools to import existing or create new MAgento Lambda Microservice functions in Node.js and Python. You can easily run, preview, debug, and deploy these functions directly from the IDE. AWS Cloud9 also provides support for the AWS Serverless Application Model (AWS SAM) framework. This enables you to easily manage MAgento Lambda functions and serverless resources in your application.
+
+AWS Cloud9 can simulate the AWS Lambda execution environment for Node.js and Python and PHP (using Bref) to run your functions locally in the IDE. This enables you to test your serverless applications with step-through debugging without uploading your application changes to Lambda. Once tested, you can also deploy your application changes to Lambda directly from the IDE.
