@@ -1,10 +1,10 @@
 # cloud9-magento
-##Cloud 9 Magneto installation
+## Cloud 9 Magneto installation
 
 AWS Cloud9 IDE for MAgento is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your Magento
 
-#Benefits
-#CODE WITH JUST A BROWSER
+# Benefits
+# CODE WITH JUST A BROWSER
 AWS Cloud9 gives you the flexibility to run your magento development environment on a managed Amazon EC2 instance or any existing Linux server that supports SSH.
 This means that you can write, run, and debug Magento applications with just a browser, without needing to install or maintain a local IDE. 
 The Cloud9 code editor and integrated debugger include helpful, time-saving features such as code hinting, code completion, and step-through debugging. 
