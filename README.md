@@ -29,4 +29,12 @@ AWS Cloud9 comes with a terminal that includes sudo privileges to the managed MA
 ## START NEW PROJECTS QUICKLY
 AWS Cloud9 makes it easy for you to start new projects. Cloud9’s development environment comes prepackaged with tooling for MAgento and over 40 programming languages, including Node.js, JavaScript, Python, PHP, Ruby, Go, and C++. This enables you to start writing Magento Microdervices code using popular application stacks within minutes by eliminating the need to install or configure files, SDKs, and plug-ins for your development machine. Because Cloud9 is cloud-based, you can easily maintain multiple development environments to isolate your project’s resources.
 
+## There are two types of AWS Cloud9 environments that you can use.
 
+AWS Cloud9 EC2 environment – Enables you to launch a new Amazon EC2 instance that Cloud9 connects to. By default, these instances stop 30 minutes after you close the IDE and start automatically when you open the IDE.
+AWS Cloud9 SSH environment – Enables you to connect an existing Linux server with Cloud9. There are certain dependencies that are required on the Linux server that you want to use with Cloud9 SSH environments. 
+Please visit AWS documentation for more details.
+
+## Auto Hybernetion feature for the development enviroment 
+
+AWS Cloud9 provides a default auto-hibernation setting of 30 minutes for your Amazon EC2 instances created through Cloud9. With this setting, your Magento2 EC2 instances automatically stop 30 minutes after you close the IDE and restart only when you reopen the IDE. As a result, you typically only incur EC2 instance charges for when you are actively working. When your instance requires a restart, you lose any active terminal sessions in the IDE and can experience some wait time while opening your IDE. Depending on your use case, you can configure the auto-hibernation setting and even elect to keep your EC2 instance “always on”.
