@@ -43,6 +43,8 @@ AWS Cloud9 provides a default auto-hibernation setting of 30 minutes for your Am
 
 You can access the built-in tools for AWS Lambda from the AWS Resources panel in the IDE. You can use these tools to import existing or create new MAgento Lambda Microservice functions in Node.js and Python. You can easily run, preview, debug, and deploy these functions directly from the IDE. AWS Cloud9 also provides support for the AWS Serverless Application Model (AWS SAM) framework. This enables you to easily manage MAgento Lambda functions and serverless resources in your application.
 
+![](https://github.com/Genaker/cloud9-magento/raw/master/images/lambdgento.jpg)
+
 AWS Cloud9 can simulate the AWS Lambda execution environment for Node.js and Python and PHP (using Bref) to run your functions locally in the IDE. This enables you to test your serverless applications with step-through debugging without uploading your application changes to Lambda. Once tested, you can also deploy your application changes to Lambda directly from the IDE.
 
 # How to run
